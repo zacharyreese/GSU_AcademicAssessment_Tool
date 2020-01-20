@@ -1,5 +1,60 @@
 # Academic Assessment Tool
-This is the read me for the 2019 System Software class 
+>A JSP-based tool for tracking ABET certification performance of the Georgia Southern University courses
+![](https://i.imgur.com/aZpfFei.png)
+![](https://i.imgur.com/wROBrKt.png)
+![](https://i.imgur.com/zkZQBTv.png)
+
+## About
+
+The Academic Assessment Tool or 'AA' Tool was a team capstone project for CSCI 5331 at Georgia Southern University. This was a collaborative project created by Zachary Reese, Griffin Garrat, Tracy Bridges, Keenan Lewis-Jolly, and Daylan Post. Our team worked directly with Dr. Andrew Allen of Georgia Southern University to gather requirements and client feedback during sprints. The purpose of the Academic Assessment Tool is to create a web-based tool that allowed the CS department and faculty to have a central hub to track, compare, and manage trends of class scores of various ABET and department requirements and assignments through visuals that display calculated data.
+
+## Team Roles
+
+* Zachary Reese - Team Lead, Back-end Developer, Tester
+* Griffin Garrat - Front-end Developer, Back-end Developer, Tester
+* Tracy Bridges - Front-end Developer, Tester
+* Keenan Lewis-Jolly - Front-end Developer
+* Daylan Post - Database Design and Creation
+
+## Software Development Methodology
+
+* #### Agile
+	* 3 Sprints
+	* Weekly meetings
+	* Bi-weekly client meetings
+	
+## Design Methodologies
+
+* Model View Controller
+* Object-Oriented Design
+![](https://i.imgur.com/kzSYXvf.png)
+
+## Flow Diagram
+
+![](https://i.imgur.com/SiSKt6Y.png)
+
+## Database
+
+![](https://i.imgur.com/RTtXVv1.png)
+	
+## External Resources
+
+* Clubhouse (Project management software)
+* Github
+* Wildfly (Eclipse JSP Server)
+* AWS (RDS & Java Elastic Beanstalk)
+* Freemarker
+* MySQL
+* ChartJS
+
+## Testing
+
+* JUnit
+	* Database
+	* Subsystems
+* WC3 Validator
+* System Testing
+
 ## Setup
 1. Download Eclipse EE
 	- https://www.eclipse.org/downloads/
@@ -44,8 +99,3 @@ This is the read me for the 2019 System Software class
 	- Wildfly will start and open a new tab in eclipse
 	- If successful, you will see index.html
 
-## MySQL (or Workbench) Connection Setup
-	- Connection URL: aadb.cloepmhco6if.us-east-1.rds.amazonaws.com
-	- Username: admin
-	- Password: password
-	- Database name: aadb
