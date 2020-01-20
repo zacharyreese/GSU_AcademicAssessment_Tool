@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(0,34,68);
+    width: 1050px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(0,34,68);
+    color: rgb(179,153,92);
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    height: 20px;
+    color: rgb(179,153,92);
+}
+
+.button {
+    border-radius: 4px;
+    background-color: black;;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+div {
+    /* margin-left: 360px; */
+}
+
+#home {
+	width: 50px;
+	margin: auto;
+	    margin-left: 360px;
+	
+}
+
+hr {
+	border-color: rgb(179,153,92);
+	background-color: rgb(179,153,92);
+}
+
+#success {
+	margin-left: 430px;
+}

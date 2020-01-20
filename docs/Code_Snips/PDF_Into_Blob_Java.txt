@@ -1,0 +1,17 @@
+File pdfFile = new File("C:/Users/Gord/Desktop/zzTest.pdf");
+byte[] pdfData = new byte[(int) pdfFile.length()];
+DataInputStream dis = new DataInputStream(new FileInputStream(pdfFile));
+dis.readFully(pdfData);  // read from file into byte[] array
+dis.close();
+
+String myConnectionString =
+        "jdbc:mysql://localhost:3307/mydb";
+dbConnection = DriverManager.getConnection(myConnectionString, "root", "whatever");
+PreparedStatement ps = dbConnection.prepareStatement(
+        "INSERT INTO project (" +
+                "filename, " +
+                "pdf_file " +
+            ") VALUES (?,?)");
+ps.setString(1, "testpdf");
+ps.setBytes(2, pdfData);  // byte[] array
+ps.executeUpdate();

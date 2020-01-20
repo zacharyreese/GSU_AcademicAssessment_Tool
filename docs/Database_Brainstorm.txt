@@ -1,0 +1,71 @@
+**Needed Tables for Database**
+Login (do we hash within the database or in the backend?)
+
+Classes
+--> Could have repeat class but each year has a unique RAN 
+
+Professors
+
+Students 
+
+Assignments
+
+Administrators
+
+Campus (could be a field)
+
+Classes
+Fields:
+	Incrementing ID (primary key)
+	CRN
+	Course Number 
+	Department
+	Section
+	Class Name
+	Semester
+	Year
+	Campus
+	Professor (Key)
+	Students (Key)
+	Assignments (key)
+	Grade for Class
+
+Professors
+Fields:
+	Professor ID
+	Login (F Key)
+	Professor Name
+
+Login
+Fields:
+	Login Username
+	Password 
+	Login ID
+	IsAdmin?
+	
+
+Administrator
+Fields:
+	Name 
+	AdminID
+	LoginID
+
+Assingments
+fields:
+	AssignmentId
+	Blob
+	ClassID (foreign Key)
+	Grade
+	TypeOfAssignment 
+	Description
+
+
+	
+	
+	
+	
+	
+	
+
+
+	

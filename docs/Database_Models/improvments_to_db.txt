@@ -1,0 +1,18 @@
+--> Make the helper tables for the many to many relationships
+
+EXAMPLE:
+
+Rather than-
+  Instruments <--> Learning Objectives
+  
+We Have:
+  Instruments <--> Helper Table <--> Learning Objectives 
+  
+--> This way we can actually have a relationship that wont cause issues on calling to the backend 
+
+Add category and subcategory to ABET table
+Add ABET to mission objective
+change ABET name to abet id and mission objective name to id
+Changed course number to course id in helper tables since multiple classes in different departments can have the same course number
+Added logins to administrators and logins to professors
+Added classes to professors

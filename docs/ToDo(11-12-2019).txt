@@ -1,0 +1,36 @@
+--> try and input an intermediate table for the many to many relationships between the tables
+--> make sure the updates / create functions are correct 
+--> hava all parameters needed to collect and store the data for the graphs
+--> make the keys more identifiable with what they are tied to
+--> Make the models easier to read and understand 
+  -> Lable the specific areas of the databse and make it clearly readable for Dr.Allen
+
+--> Test that the connections work within the back end of the program 
+
+TESTING DOCUMENT
+--> We need a QA sheet
+--> It has the timeline, methedology and other things such as that 
+--> Like if we need agile or another type of workflow
+--> What charts we use
+--> The QA checklist will give us our approach and how we attempt to work on our software 
+--> We will have a requierments checlist 
+--> What are the requerments we need and what are the subsets we are building and not building
+--> What kind of tests are we doing? (regresin, integration system testing, unit testing, white / blackbox testing)
+--> Focus on 5 particular features we have implemented which is in addition to our login
+  -> We include the login but it does not cout as one of our five
+  -> We want these 5 thouroughly tested
+  -> these 5 must be visible from the user
+  -> We will have these test described to us with expected output and our input
+  -> We will have metrics (total lines of code, complexity, etc.)
+--> A final report of all of our tests as well which will be turned in
+
+***DO NOT DROP A TEST IF IT FAILS, KEEP TRACK OF IT***
+
+--> Junit is one type of code coverage tool we can use
+--> Selenium is a web way to work with our webpage for code coverage
+--> All of database design diagrams should be included within our document with discussion of that as well
+--> Class design and layout should also be included in our design document 
+--> Explain all the pictures we put in 
+(3 documents, testing : requierments : design )
+
+
